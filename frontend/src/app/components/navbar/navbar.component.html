@@ -1,0 +1,19 @@
+<mat-toolbar class="navbar">
+  <mat-toolbar-row>
+    <span class="logo">🎮 Game Zone</span>
+    <span class="spacer"></span>
+
+    <!-- Menu Trigger Button -->
+    <button mat-button [matMenuTriggerFor]="navMenu">Menu</button>
+
+    <!-- Dropdown Menu -->
+    <mat-menu #navMenu="matMenu">
+      <button mat-menu-item routerLink="/" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">
+        Game List
+      </button>
+      <button mat-menu-item routerLink="/slot-machine" routerLinkActive="active-link">
+        Slot Machine
+      </button>
+    </mat-menu>
+  </mat-toolbar-row>
+</mat-toolbar>

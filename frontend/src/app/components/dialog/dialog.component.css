@@ -1,0 +1,14 @@
+.winner-dialog {
+    color: green;
+    font-weight: bold;
+}
+  
+.loser-dialog {
+    color: rgba(95, 119, 114, 0.732);
+    font-weight: bold;
+}
+  
+.error-dialog {
+    color: red;
+    font-weight: bold;
+}

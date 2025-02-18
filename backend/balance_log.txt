@@ -1,0 +1,68 @@
+Session ID: LnpDrr63Pq3gLWS64XxpCSjituQWJSQY, Current Balance: 20
+Session ID: LnpDrr63Pq3gLWS64XxpCSjituQWJSQY, Balance after spin: 19, Spin Result: banana, apple, lemon
+Session ID: LnpDrr63Pq3gLWS64XxpCSjituQWJSQY, Balance after spin: 18, Spin Result: lemon, cherry, lemon
+Session ID: LnpDrr63Pq3gLWS64XxpCSjituQWJSQY, Balance before conversion: 18, Converted to: USD, Converted Balance: 18.00
+Session ID: gn10Nvnv3CS4XA3szrFaFqlXrWeiatcN, Balance after spin: 19, Spin Result: lemon, lemon, apple
+Session ID: gn10Nvnv3CS4XA3szrFaFqlXrWeiatcN, Balance after spin: 18, Spin Result: banana, apple, lemon
+Session ID: gn10Nvnv3CS4XA3szrFaFqlXrWeiatcN, Balance after spin: 17, Spin Result: banana, cherry, banana
+Session ID: gn10Nvnv3CS4XA3szrFaFqlXrWeiatcN, Balance after spin: 16, Spin Result: lemon, cherry, lemon
+Session ID: gn10Nvnv3CS4XA3szrFaFqlXrWeiatcN, Balance after spin: 15, Spin Result: apple, lemon, lemon
+Session ID: gn10Nvnv3CS4XA3szrFaFqlXrWeiatcN, Balance after spin: 14, Spin Result: apple, lemon, apple
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 19, Spin Result: lemon, lemon, banana
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 21, Spin Result: lemon, lemon, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 20, Spin Result: banana, lemon, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 20, Converted to: EUR, Converted Balance: 19.07
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 20, Converted to: EUR, Converted Balance: 19.07
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 20, Converted to: USD, Converted Balance: 20.00
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 22, Spin Result: lemon, lemon, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 22, Converted to: USD, Converted Balance: 22.00
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 21, Spin Result: lemon, banana, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 23, Spin Result: lemon, lemon, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 25, Spin Result: lemon, lemon, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 24, Spin Result: banana, cherry, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 23, Spin Result: banana, apple, banana
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 22, Spin Result: cherry, lemon, cherry
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 21, Spin Result: lemon, lemon, apple
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 20, Spin Result: lemon, apple, banana
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 29, Spin Result: lemon, apple, apple
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 31, Spin Result: lemon, lemon, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 31, Converted to: USD, Converted Balance: 31.00
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 30, Spin Result: lemon, lemon, apple
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 39, Spin Result: apple, apple, cherry
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance after spin: 38, Spin Result: lemon, apple, lemon
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 38, Converted to: USD, Converted Balance: 38.00
+Session ID: 5jtVQnAxHm57gzyvZnMB1jmCzzEfutGw, Balance before conversion: 38, Converted to: USD, Converted Balance: 38.00
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 19, Spin Result: lemon, lemon, cherry
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 18, Spin Result: lemon, lemon, cherry
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 17, Spin Result: banana, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 16, Spin Result: lemon, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance before conversion: 16, Converted to: USD, Converted Balance: 16.00
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 15, Spin Result: apple, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 17, Spin Result: lemon, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance before conversion: 17, Converted to: USD, Converted Balance: 17.00
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 16, Spin Result: lemon, apple, cherry
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance before conversion: 16, Converted to: USD, Converted Balance: 16.00
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 15, Spin Result: lemon, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 14, Spin Result: lemon, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 23, Spin Result: lemon, apple, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 22, Spin Result: lemon, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance before conversion: 22, Converted to: EUR, Converted Balance: 20.97
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 21, Spin Result: lemon, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 20, Spin Result: lemon, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance before conversion: 20, Converted to: USD, Converted Balance: 20.00
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 19, Spin Result: lemon, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 18, Spin Result: lemon, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 17, Spin Result: lemon, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 19, Spin Result: lemon, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 18, Spin Result: cherry, lemon, banana
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 17, Spin Result: cherry, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 16, Spin Result: banana, apple, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 15, Spin Result: banana, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 14, Spin Result: banana, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 16, Spin Result: lemon, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 18, Spin Result: lemon, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 17, Spin Result: lemon, lemon, banana
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 16, Spin Result: banana, lemon, lemon
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 15, Spin Result: lemon, lemon, apple
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 14, Spin Result: apple, lemon, banana
+Session ID: 730dJRRfEhiMipvXUaTIC13-XChyGW47, Balance after spin: 18, Spin Result: banana, banana, apple

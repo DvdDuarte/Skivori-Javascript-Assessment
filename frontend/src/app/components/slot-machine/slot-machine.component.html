@@ -1,0 +1,46 @@
+<div class="main-container">
+  <mat-card class="slot-machine-card">
+    <mat-card-title>Slot Machine</mat-card-title>
+    <div class="balance-display">
+      <p>Current Balance: {{ balance }} coins</p>
+    </div>
+    <div class="reels-container">
+      <!-- Slot Reels (side by side) -->
+      <mat-card *ngFor="let symbol of result" class="reel-card">
+        <img
+          [src]="symbolImages[symbol]"
+          alt="{{ symbol }} symbol"
+          class="slot-image"
+        />
+      </mat-card>
+    </div>
+    <!-- Spin Button -->
+    <div class="button-container">
+      <button mat-flat-button color="primary" (click)="spinSlotMachine()">
+        Spin
+      </button>
+    </div>
+  </mat-card>
+
+  <mat-card class="currency-card">
+    <mat-card-title>Convert Balance</mat-card-title>
+    <mat-form-field appearance="fill">
+      <mat-label>Select Currency</mat-label>
+      <mat-select [(value)]="selectedCurrency" class="currency-select">
+        <mat-option
+          *ngFor="let currency of availableCurrencies"
+          [value]="currency"
+        >
+          {{ currency }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <!-- Convert Button -->
+    <div class="button-container">
+      <button mat-flat-button color="accent" (click)="convertCurrency()">
+        Convert
+      </button>
+    </div>
+  </mat-card>
+</div>

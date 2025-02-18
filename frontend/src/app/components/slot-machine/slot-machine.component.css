@@ -1,0 +1,180 @@
+/* Main container to place the cards side by side using Flexbox */
+.main-container {
+  display: flex;
+  gap: 20px;  /* Space between the cards */
+  justify-content: space-evenly;  /* Distribute space evenly */
+  margin: 20px;  /* Add some margin around the container */
+  flex-wrap: wrap;  /* Allow wrapping for smaller screens */
+}
+
+/* Slot machine card styling */
+.slot-machine-card {
+  flex: 0 1 400px;  /* Set a flexible size for the card */
+  padding: 15px;
+  background-color: #d3d3d3; /* Light gray background for slot machine */
+  max-width: 250px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+/* Display balance in Slot Machine Card */
+.balance-display {
+  margin-bottom: 15px; /* Add margin between balance and reels */
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Currency converter card styling */
+.currency-card {
+  flex: 0 1 400px;  /* Set a flexible size for the card */
+  padding: 15px;
+  background-color: #81c784; /* Green background for converter */
+  max-width: 250px;
+  max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  margin: 8px;
+  box-sizing: border-box;
+}
+
+/* Container for the slot machine reels */
+.reels-container {
+  display: flex;  /* Ensure the reels are always in a row */
+  justify-content: space-around;  /* Space the reels evenly */
+  gap: 10px;  /* Space between reels */
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Each reel card */
+.reel-card {
+  width: 70px;  /* Adjusted width of the reels */
+  height: 100px;  /* Adjusted height of the reels */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;  /* White background for reels */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Light shadow for depth */
+  padding: 5px;
+  flex-shrink: 0;  /* Prevent reel cards from shrinking */
+}
+
+/* Slot machine image */
+.slot-image {
+  width: 75%;  /* Make images smaller inside the reels */
+  height: auto;
+}
+
+/* Add a keyframes animation for spinning effect */
+@keyframes spinReel {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(1800deg); /* Rotate the reels for 5 full turns */
+  }
+  100% {
+    transform: rotateX(3600deg); /* End at a full rotation */
+  }
+}
+
+/* Apply spinning animation to the reel cards when the machine is spinning */
+.reel-card.spinning {
+  animation: spinReel 1.5s ease-out forwards; /* Add animation to the reel */
+}
+
+/* Material Button Styling */
+/* Material Button Styling - Flat Buttons */
+button {
+  margin-top: 15px;  /* Add margin to separate from other elements */
+  width: 100%;
+  text-transform: none;  /* Remove automatic uppercase text styling */
+  border-radius: 4px;  /* Optional: Add rounded corners to flat buttons */
+  padding: 8px 16px;  /* Adjust padding to maintain proportions */
+}
+
+/* Additional style to make flat buttons look good on smaller screens */
+@media (max-width: 480px) {
+  button {
+    padding: 10px 20px;  /* Increase padding slightly on smaller screens */
+  }
+}
+
+/* Currency selector and dropdown styling */
+.currency-select {
+  border-radius: 25px !important; /* Rounded edges for the currency select */
+}
+
+/* Optional: Round the corners of mat-option inside mat-select */
+.mat-select-trigger {
+  border-radius: 25px !important;
+}
+
+/* Optional: Round the corners of mat-form-field (input box) */
+mat-form-field {
+  border-radius: 25px !important;
+}
+
+/* Responsive adjustments for mobile and tablet */
+@media (max-width: 768px) {
+  .slot-machine-card, .currency-card {
+    width: 100%;  /* Ensure the cards take full width on tablets */
+    max-width: 350px;  /* Slightly reduce the max-width */
+  }
+
+  .reels-container {
+    justify-content: space-evenly;  /* Space reels evenly in row */
+  }
+
+  .reel-card {
+    width: 60px;  /* Reduce reel size */
+    height: 90px;  /* Adjust reel height */
+  }
+
+  button {
+    margin-top: 12px;
+    width: auto;  /* Button will scale according to content */
+  }
+}
+
+@media (max-width: 480px) {
+  .slot-machine-card, .currency-card {
+    width: 100%;
+    padding: 16px;
+    max-width: 300px;  /* Further reduce max-width on smaller screens */
+  }
+
+  .button-container {
+    margin-top: 12px;
+  }
+
+  .reels-container {
+    gap: 8px;  /* Reduce gap between reels */
+    justify-content: space-evenly;  /* Keep reels in a row */
+  }
+
+  .reel-card {
+    width: 55px;  /* Reduce reel width further */
+    height: 80px;  /* Adjust reel height */
+  }
+
+  .slot-image {
+    width: 80%;  /* Adjust slot image size to fit smaller reels */
+  }
+}
+
+/* Snackbar positioning */
+::ng-deep .mat-snack-bar-container {
+  bottom: 0 !important;  /* Force the snackbar to appear at the bottom */
+  top: auto !important;   /* Disable the default top positioning */
+  left: 0;
+  right: 0;
+}

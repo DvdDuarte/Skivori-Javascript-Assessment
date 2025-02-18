@@ -1,0 +1,13 @@
+.navbar {
+  background-color: #424242; /* Dark Grey */
+  color: white;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.active-link {
+  font-weight: bold;
+  color: rgb(234, 130, 70) !important;
+}

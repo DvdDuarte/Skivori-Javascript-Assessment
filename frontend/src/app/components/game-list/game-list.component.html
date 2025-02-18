@@ -1,0 +1,36 @@
+<div class="container mt-4">
+  <!-- Search Bar -->
+  <app-search-bar (searchEvent)="onSearch($event)"></app-search-bar>
+
+  <!-- Pagination Controls -->
+  <div class="d-flex justify-content-between align-items-center mt-3">
+    <span>Showing {{ paginatedGames.length }} of {{ games.length }} games</span>
+    <mat-form-field>
+      <mat-label>Items per page</mat-label>
+      <mat-select [(value)]="pageSize" (selectionChange)="updatePagination()">
+        <mat-option *ngFor="let size of [6, 12, 24]" [value]="size">{{ size }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <!-- Game Cards -->
+  <div class="row">
+    <div class="col-md-4" *ngFor="let game of paginatedGames">
+      <mat-card class="game-card">
+        <img *ngIf="game.thumb?.url" mat-card-image [src]="'https:' + game.thumb.url" [alt]="game.title">
+        <mat-card-header>
+          <mat-card-title>{{ game.title }}</mat-card-title>
+          <mat-card-subtitle>{{ game.providerName }}</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </div>
+
+  <!-- Material Paginator -->
+  <mat-paginator
+    [length]="games.length"
+    [pageSize]="pageSize"
+    [pageSizeOptions]="[6, 12, 24]"
+    (page)="onPageChange($event)">
+  </mat-paginator>
+</div>
